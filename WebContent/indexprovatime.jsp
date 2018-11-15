@@ -60,13 +60,13 @@
 
             <ul class="nav">
                 <li class="active">
-                    <a href="http://192.168.100.39:8080/ccsv1/CcsProva">
+                    <a href="http://localhost:8080/ccsv1/CcsProva">
                         <i class="pe-7s-graph"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="http://192.168.100.39:8080/ccsv1/GetDate">
+                    <a href="http://localhost:8080/ccsv1/GetDate">
                         <i class="pe-7s-bell"></i>
                         <p>Set interval time</p>
                     </a>
