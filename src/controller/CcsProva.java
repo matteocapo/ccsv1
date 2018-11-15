@@ -43,7 +43,7 @@ public class CcsProva extends HttpServlet {
 
 	     
 	    //oee
-	    request.setAttribute("oee","120%");
+	    request.setAttribute("oee","80%");
 	    
 	    //scarti e produzioni
 	    request.setAttribute("produzioni", "200562");
@@ -57,6 +57,7 @@ public class CcsProva extends HttpServlet {
 	    request.setAttribute("min4", "201"); 
 	    request.setAttribute("min5", "320"); 
 	    request.setAttribute("min6", "350");
+	    
 	    
 	    request.getRequestDispatcher("/indexprova.jsp").forward(request, response);
 

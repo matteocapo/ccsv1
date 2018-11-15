@@ -167,7 +167,7 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="card">
                           <div class="header">
                                 <h4 class="title">Choose interval time for get datas</h4>

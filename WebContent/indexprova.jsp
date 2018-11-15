@@ -179,9 +179,10 @@
                         <div class="card ">
                             <div class="header">
                                 <h4 class="title">OEE</h4>
+                                <p class="category">Overall Equipment Effectiveness</p>
                             </div>
                             <div class="content">
-                            	<h4 font-size="20">120%</h4>
+                            	<h4 style="text-align: center; font-size: 80px; font-weight:bold;">${oee}</h4>
                             </div>
                         </div>
                     </div>
@@ -272,7 +273,7 @@
 	<!-- charts -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
 	
-	<!-- 	<script type="text/javascript" src="jsLogic/chart.js"></script> -->
+	<script type="text/javascript" src="jsLogic/chart.js"></script>
 	
 	
 
@@ -347,7 +348,6 @@
 	<!-- script grafo a torta -->
 	<script type="text/javascript">
 	var oilCanvas = document.getElementById("oilChart");
-
 	var oilData = {
 	    labels: [
 	        "Discarded pieces",
